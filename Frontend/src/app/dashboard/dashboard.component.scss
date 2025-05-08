@@ -1,0 +1,100 @@
+.position-relative {
+	position: relative;
+}
+
+.add-contact {
+	position: absolute;
+    right: 17px;
+    top: 57px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("../../assets/img/dashboard1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    opacity: 90%;
+}
+  mat-card{
+    background: transparent;
+    text-align: center;
+    color:#F8F8FF;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 10px;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .row{
+    margin-top: 20vh;
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(249, 248, 248, 0.525);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: 	#FFB6C1;
+    text-align: center !important;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Italianno", cursive;  
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #0a0a0a;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }

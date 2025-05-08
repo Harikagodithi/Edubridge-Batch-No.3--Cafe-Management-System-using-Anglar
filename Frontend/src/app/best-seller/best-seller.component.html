@@ -1,0 +1,64 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+<div class="slider-container">
+    <h2 class="section-title">Best Seller</h2>
+  
+    <div class="carousel">
+      <div
+        class="slides-wrapper"
+        [style.transform]="'translateX(-' + currentIndex * 100 + '%)'"
+      >
+        <div class="slide">
+          <a href="../../assets/img/1.jpg" target="_blank">
+            <img src="../../assets/img/1.jpg" alt="Pizza" class="slide-image" />
+          </a>
+          <h4>Pizza</h4>
+          <p>
+            Pizza is an Italian dish consisting of a usually round, flattened
+            base of leavened wheat-based dough topped with tomatoes, cheese, and
+            often various other ingredients.
+          </p>
+        </div>
+  
+        <div class="slide">
+          <a href="../../assets/img/2.jpg" target="_blank">
+            <img src="../../assets/img/2.jpg" alt="Biryani" class="slide-image" />
+          </a>
+          <h4>Biryani</h4>
+          <p>
+            Biryani is a mixed rice dish made with Indian spices, rice, and meat,
+            usually chicken or fish, and sometimes eggs or vegetables.
+          </p>
+        </div>
+  
+        <div class="slide">
+          <a href="../../assets/img/3.jpg" target="_blank">
+            <img src="../../assets/img/3.jpg" alt="Pasta" class="slide-image" />
+          </a>
+          <h4>Pasta</h4>
+          <p>
+            Pasta is a type of food made from unleavened dough of wheat flour
+            mixed with water or eggs, formed into shapes, then cooked by boiling.
+          </p>
+        </div>
+  
+        <div class="slide">
+          <a href="../../assets/img/4.jpg" target="_blank">
+            <img
+              src="../../assets/img/4.jpg"
+              alt="Molten Chocolate Cake"
+              class="slide-image"
+            />
+          </a>
+          <h4>Molten Chocolate Cake</h4>
+          <p>
+            A rich chocolate dessert with a liquid chocolate center, also known
+            as lava cake.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
